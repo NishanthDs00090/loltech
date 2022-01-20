@@ -1,0 +1,130 @@
+html {
+  background-image: linear-gradient(to right, #57ebde, #aefb2a);
+  font-family: "Karla", sans-serif;
+}
+.main-container {
+  background-color: aqua;
+  height: 650px;
+  width: 1000px;
+  display: grid;
+  margin: auto;
+  padding: 0;
+  /* grid-template-columns: 133px 133px 133px;
+  grid-template-rows: 133px 133px 133px; */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 1fr;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.div1 {
+  /* width: 100px; */
+  height: auto;
+  background-color: rgb(248, 247, 247);
+  margin: 0;
+  padding: 0;
+}
+.join {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.part1 {
+  background-color: #1edad3;
+  /* opacity: 50%; */
+  border-bottom-right-radius: 30px;
+  height: auto;
+  color: rgb(255, 255, 255);
+}
+
+.part2 {
+  background-color: #2ac2bd;
+  /* opacity: 50%; */
+  border-bottom-left-radius: 30px;
+  color: rgb(255, 255, 255);
+}
+
+/* Join our comun..*/
+.comun {
+  color: aqua;
+  -webkit-text-fill-color: #00fff7;
+
+  -webkit-text-stroke-color: #026662;
+  -webkit-text-stroke-width: 0.3px;
+  justify-content: start;
+  margin-top: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 40px;
+}
+/* 30-days */
+.hassle-free {
+  font-weight: 600;
+  color: #bdd14d;
+  -webkit-text-stroke-color: #b2c547;
+  -webkit-text-stroke-width: 1px;
+  font-size: 30px;
+}
+.upper {
+  margin-left: 40px;
+}
+/* gain access */
+.access {
+  font-size: 26.57px;
+  color: #d0cec7;
+}
+/* why us */
+.lol {
+  text-align: center;
+  opacity: 90%;
+  margin-top: 40px;
+}
+/* tutorials by industry */
+.indus {
+  margin: 40px;
+  font-size: 27px;
+  text-transform: capitalize;
+  opacity: 80%;
+}
+/* monthy subs */
+.random {
+  text-align: center;
+  margin: 40px;
+  opacity: 80%;
+  font-size: 35px;
+}
+/* $29 */
+.money {
+  margin-left: 70px;
+  font-size: 50px;
+  display: inline;
+}
+/* per month */
+.alol {
+  display: inline-block;
+  font-size: 25px;
+  opacity: 60%;
+  margin-left: 10px;
+}
+.full {
+  margin-left: 70px;
+  font-size: 25px;
+  opacity: 80%;
+  margin-top: 0;
+}
+.sign-up {
+  background-color: #cfe418;
+  height: 60px;
+  width: 380px;
+  margin: 50px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 25px;
+}
+.sign-up:hover {
+  background-color: white;
+  color: aqua;
+  cursor: pointer;
+}
